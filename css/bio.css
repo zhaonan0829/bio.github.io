@@ -21,6 +21,10 @@ hr {
     margin-bottom: 4em;
 }
 
+img {
+    width: 100%;
+}
+
 .a1 {
     color: #d35400;
     text-decoration: none;
