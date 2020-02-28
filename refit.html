@@ -32,14 +32,14 @@
         测试题答卷（汽车改装）
     </p>
     <p>
-        批改作业绝对不是个轻松的差事... 谢谢你看到这里，辛苦了。<br />
+        批改作业绝对不是个轻松的差事... 谢谢你看到这里。<br />
     </p>
     <p>
-        下面的内容是针对测试题的一些最基础构思，它们专为测试而设计，所以它们并未进行过足够“深刻”的调研和准备，仅仅凭借着一些粗浅的游戏的经历拼凑而成。由于时间限制，里面仍有一些设计细节和想法没有被照顾和体现，很期待有机会能与你进一步讨论 ：）
+        下面的内容是针对测试题的一些最基础构思，它们专为测试而设计，所以它们并未进行过足够“深刻”的调研和准备，仅仅凭借着一些往日的游戏感觉拼凑而成。由于时间限制，仍有一些设计细节和想法没有被照顾和体现，很期待有机会能与你进一步讨论 ：）
     </p>
 
     <p>
-        测试内容是界面，为了能够让设计“说话”，我将尽可能搭配少量的文字描述。另，关于这次的设计，有三点值得一提：
+        测试内容是页面，为了能让页面“说话”，我将尽可能搭配少量的文字描述。但关于这次的设计，有三点值得一提：
     </p>
     <p>
         <b>1. </b>设计尽可能遵从了 Apple HIG 与 Google Material Design 的底层实践；<br />
@@ -47,10 +47,10 @@
         <b>3. </b>由于暂不了解网易内部的设计话术，下方的文字描述风格将尽可能“直白”。
     </p>
 
-    <p style="color: grey; font-size: 1.2em; max-width: 100%; padding-top: 2em;">
-        TIP 1： 本页面采用了 APPLE 的主题适配技术，苹果设备可通过系统更换 明/暗 主题。
+    <p style="color: grey; font-size: 1em; max-width: 100%; padding-top: 2em;">
+        TIP：本页面采用了 APPLE 的主题适配技术，苹果设备可通过系统更换 明/暗 主题。
         <br />
-        TIP 2： 本页面的图片已被制作为交错式 PNG，这意味着网页显示时，图片将从低质量图像开始逐步加载, 部分过于传统的浏览器版本可能无法支持这一特性，您可以点击 <a href="Refit.pdf" class="a1" target="_blank">这里</a> 下载本答卷的 PDF 版本；
+        TIP：本页面的图片使用了交错式 PNG，部分过于传统的浏览器版本可能无法支持这一特性，您可以点击 <a href="Refit.pdf" class="a1" target="_blank">这里</a> 查看本答卷的 PDF 版本。
     </p>
     
     <hr />
@@ -58,22 +58,23 @@
         目录
     </p>
     <p>
-        <a href="RESUME.pdf" class="a1" target="_blank">一、车辆概览</a>
+        <a href="#anchor_1" class="a1" target="_self">一、车辆概览</a>
         <br />
-        <a href="RESUME.pdf" class="a1" target="_blank">二、车库</a>
+        <a href="#anchor_2" class="a1" target="_self">二、车库</a>
         <br />
-        <a href="RESUME.pdf" class="a1" target="_blank">三、部件（拆解）</a>
+        <a href="#anchor_3" class="a1" target="_self">三、部件（拆解）</a>
         <br />
-        <a href="RESUME.pdf" class="a1" target="_blank">四、部件（升级）</a>
+        <a href="#anchor_4" class="a1" target="_self">四、部件（升级）</a>
         <br />
-        <a href="RESUME.pdf" class="a1" target="_blank">五、部件（装备）</a>
+        <a href="#anchor_5" class="a1" target="_self">五、部件（装备）</a>
     </p>
+    <a name="anchor_1"></a>
     <hr />
     <p style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
         一、车辆概览
     </p>
     <p>
-        开始游戏，可通过首页的某个位置，进入「车辆概览页」。
+        开始游戏，可通过「首页」的某个位置，进入「车辆概览页」。
     </p>
     <p>
         改装按钮上的“黄色标识”用于提醒查看库中的“新部件”。
@@ -81,6 +82,7 @@
     <p>
         <img src="img/refit/Introduction.png" alt="Introduction" />
     </p>
+    <a name="anchor_2"></a>
     <hr />
     <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
         二、车库
@@ -111,6 +113,7 @@
     <p style="color: grey">
         * 暂未设计更多的排序方式，是因为当前车库中较为“密集”的“车辆排列”以及更多的科学考量，咱们有机会再续；
     </p>
+    <a name="anchor_3"></a>
     <hr />
     <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
         三、部件（拆解）
@@ -123,15 +126,22 @@
     <p>
         <img src="img/refit/Introduction.png" alt="Introduction" />
     </p>
-    <p>
-        在「装配页」底部，可切换部件类型。<br />
-        <b>黑色 E：</b>已装备的部件（滚动置顶）；<br />
-        <b>灰色 E：</b>部件已经被其他车辆装备；<br />
-        <b>黄色 N：</b>如果库中有“新部件”，则直接跳转到该部件（例子为获得了一个新的发动机，所以直接跳转到发动机的分类，黄色的标识为“新部件位置”的视觉路径）；<br />
+    <p style="padding-top: 2em;">
+        在「装配页」底部，可切换部件类型。
     </p>
 
-    <p style="color: grey;">
-        * 将“Coloring 车辆涂装部件”放在部件分类的第一位，有两个考虑：一是它可能会常用，二是将它的设计有别与其他部件类型（该页面原型需要单独制作）；
+    <p>
+        <b>黑色 E：</b>当前车辆已装备该部件（滚动查看其他部件时，该部件位置置顶）；<br />
+        <b>灰色 E：</b>部件已经被其他车辆装备；<br />
+        <b>黄色 N：</b>新部件。<br />
+    </p>
+
+    <p>
+        由于“新部件”的被关注度可能会高于其他部件，所以从上一页面进入本页面时，应直接跳转到能看到（黄色N）部件的分类和位置。
+    </p>
+
+    <p>
+        例子中，玩家获得了一个新的发动机，所以打开「装配页」后，直接跳转到了发动机分类中“新部件”的位置
     </p>
 
     <p>
@@ -140,6 +150,10 @@
 
     <p>
         <img src="gif/refit/engie-tyre.gif" alt="Refit" />
+    </p>
+
+    <p style="color: grey;">
+        * 将“Coloring 车辆涂装部件”放在部件分类的第一位，有两个考虑：一是它可能会常用，二是将它的设计有别与其他部件类型（该页面原型需要单独制作）。
     </p>
     
     <p style="padding-top: 2em;">
@@ -154,25 +168,28 @@
 
     <p>遮盖部分背景，让用户更加专注于当前的操作，但这一步操作关乎于“零件”的数量，它不应该被遮蔽。</p>
 
+    <p>
+        <img src="img/refit/Refit-digest.png" alt="Refit-digest" />
+    </p>
+
     <p style="color: grey;">
         * 弹性的零件数可能更会让玩家“上瘾”；
     </p>
 
-    <p>
-        <img src="img/refit/Refit-digest.png" alt="Refit-digest" />
+    <p style="padding-top: 2em;">
+        如果拆解的零件等级较高，或许需要“确认操作”。
     </p>
-    <p>
-        如果拆解的零件等级较高，确认操作必不可少。
-    </p>
+        
     <p>
         <img src="img/refit/Refit-con.png" alt="Refit-con" />
     </p>
+    <a name="anchor_4"></a>
     <hr />
-    <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+    <p name="parts" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
         四、部件（升级）
     </p>
     <p>
-        未达到满级的装备可进行升级。点击 UPGRADE（升级）按钮。
+        未达到满级的部件可进行升级。点击 UPGRADE（升级）按钮。
     </p>
 
     <p>
@@ -180,14 +197,13 @@
     </p>
 
     <p>
-        遮盖部分背景，让用户更加专注于当前的操作，但这一步操作关乎于“货币 & 零件”的数量，它不应该被遮蔽。
+        遮盖部分背景，让用户更加专注于当前的操作，但这一步操作关乎于“游戏货币 & 零件”的数量，它不应该被遮蔽。
     </p>
-
-    
 
     <p>
         <img src="img/refit/Refit-up.png" alt="Refit-up" />
     </p>
+    <a name="anchor_5"></a>
     <hr />
     <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
         五、部件（装备）
@@ -218,8 +234,15 @@
     <hr />
 
     <p style="font-weight: 500;">
-        完，谢谢你滑动到这里 ：）
+        完。
     </p>
+
+    <p style="font-weight: 500;">
+        谢谢滑动，如有兴趣你还可以在 
+        <a href="index.html" class="a1" target="_blank">这里</a>
+        查看更多关于我做的一些事情与爱好 ：） 
+    </p>
+
 </body>
 
 </html>
