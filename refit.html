@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bio.css">
+    <title>ZHAON</title>
+    <style type="text/css">
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+            'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 400;
+        line-height: 1.75;
+    }
+
+    span {
+        color: #BFBFBF;
+    }
+    </style>
+</head>
+
+<body>
+    <p style="font-weight: 500; font-size: 2.2em; margin-bottom: 2em;">
+        测试题答卷（汽车改装）
+    </p>
+    <p>
+        批改作业绝对不是个轻松的差事... 谢谢你看到这里。<br />
+    </p>
+    <p>
+        下面的内容是针对测试题的一些最基础构思，它专为这次测试而设计，所以它们并未进行过足够“深刻”的调研和准备，仅仅凭借着一些往日的游戏感觉拼凑而成。由于时间限制，仍有一些设计细节和想法没有被照顾和体现，很期待有机会能与你进一步讨论 ：）
+    </p>
+
+    <p>
+        测试内容是页面，为了能让页面“说话”，我将尽可能搭配少量的文字描述。但关于这次的设计，有三点值得一提：
+    </p>
+    <p>
+        <b>1. </b>设计尽可能遵从了 Apple HIG 与 Google Material Design 的底层实践；<br />
+        <b>2. </b>设计使用较高细腻度的 4px 网格系统以保证原型的几何韵律；<br />
+        <b>3. </b>由于暂不了解网易内部的设计话术，下方的文字描述风格将尽可能“直白”。
+    </p>
+
+    <p style="color: grey; font-size: 1em; max-width: 100%; padding-top: 2em;">
+        TIP：本页面采用了 APPLE 的主题适配技术，苹果设备可通过系统更换 明/暗 主题。
+        <br />
+        TIP：本页面的图片使用了交错式 PNG，部分过于传统的浏览器版本可能无法支持这一特性，您可以点击 <a href="ne-refit.pdf" class="a1" target="_blank">这里</a> 查看本答卷的 PDF 版本。
+    </p>
+    
+    <hr />
+    <p style="font-weight: 500; font-size: 2em;">
+        目录
+    </p>
+    <p>
+        <a href="#anchor_1" class="a1" target="_self">一、车辆概览</a>
+        <br />
+        <a href="#anchor_2" class="a1" target="_self">二、车库</a>
+        <br />
+        <a href="#anchor_3" class="a1" target="_self">三、部件（拆解）</a>
+        <br />
+        <a href="#anchor_4" class="a1" target="_self">四、部件（升级）</a>
+        <br />
+        <a href="#anchor_5" class="a1" target="_self">五、部件（装备）</a>
+    </p>
+    <a name="anchor_1"></a>
+    <hr />
+    <p style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+        一、车辆概览
+    </p>
+    <p>
+        开始游戏，可通过「首页」的某个位置，进入「车辆概览页」。
+    </p>
+    <p>
+        改装按钮上的“黄色标识”用于提醒查看库中的“新部件”。
+    </p>
+    <p>
+        <img src="img/refit/Introduction.png" alt="Introduction" />
+    </p>
+    <a name="anchor_2"></a>
+    <hr />
+    <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+        二、车库
+    </p>
+    <p>
+        进入车库有两种方法：<br />
+        <b>方法 1：</b>在「游戏首页」点选“车库按钮”（未绘制）；<br />
+        <b>方法 2：</b>在「车辆概览页」点选“右上角的车辆图标”进入「车库页」。
+    </p>
+
+    <p>
+        <img src="gif/refit/go-garage.gif" alt="Garage" />
+    </p>
+
+    <p style="padding-top: 2em;">
+        在「车库」中：<br />
+        <b>1. </b>首屏可看到最近使用的 6 台车；<br />
+        <b>2. </b>通过右上角的旗帜可直接进入比赛（减少按返回按钮次数）；<br />
+        <b>3. </b>底部导航可快速检索车库 <b>最近使用/各类等级</b> 的车辆。
+    </p>
+    
+    <p>
+        <img src="img/refit/Garage.png" alt="Garage" />
+    </p>
+    <p>
+        <img src="gif/refit/switch_class.gif" alt="Garage" />
+    </p>
+    <p style="color: grey">
+        * 暂未设计更多的排序方式，是因为当前车库中较为“密集”的“车辆排列”以及更多的科学考量，咱们有机会再续。
+    </p>
+    <a name="anchor_3"></a>
+    <hr />
+    <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+        三、部件（拆解）
+    </p>
+    <p>
+        从「车辆概览页」进入「REFIT 装配页」有两种方法：<br />
+        <b>方法 1: </b>点击右下角的“REFIT（装配）”按钮，或右侧的车辆属性值区域；<br />
+        <b>方法 2: </b>点击中间的车辆。
+    </p>
+    <p>
+        <img src="img/refit/Introduction.png" alt="Introduction" />
+    </p>
+    
+    <p style="padding-top: 2em;">
+        由于“新部件”的被关注度可能会高于其他部件，所以从上一页面进入本页面时，应直接跳转到能看到（黄色N）部件的分类和位置。
+    </p>
+
+    <p>
+        例如，玩家获得了一个新的发动机，所以打开「装配页」后，直接跳转到了发动机分类中“新部件”的位置（如下图所示）。
+    </p>
+
+    <p>
+        其中，部件等级旁边的：<br />
+        <b>黑色 E 标志：</b>表示该部件已经被当前的车辆装备（滚动查看部件时，该部件置顶）；<br />
+        <b>灰色 E 标志：</b>表示部件已经被其他车辆装备；<br />
+        <b>黄色 N 标志：</b>表示新部件。<br />
+    </p>
+
+    <p>
+        <img src="img/refit/Refit.png" alt="Refit" />
+    </p>
+
+    <p style="padding-top: 2em;">
+        在「装配页」底部，可切换部件类型。<br />
+        在「装配页」右侧，可通过上下滚动查看库存部件。
+    </p>
+
+    <p>
+        <img src="gif/refit/engie-tyre.gif" alt="Refit" />
+    </p>
+
+    <p style="color: grey;">
+        * 将“Coloring 涂装部件类别”放在部件分类的第一位，有两个考虑：一是它可能会常用，二是将它的设计有别与其他部件类型（该页面原型需要单独制作）。
+    </p>
+    
+    <p style="padding-top: 2em;">
+        部件详情页中可执行三个操作：拆解、升级、装备，本节演示“拆解”；
+    </p>
+    <p>
+        <img src="img/refit/Refit-new.png" alt="Refit-new" />
+    </p>
+    <p style="padding-top: 2em;">
+        点击 DIGEST（拆解）按钮。
+    </p>
+
+    <p>遮盖部分背景，让用户更加专注于当前的操作，但这一步操作关乎于“零件”的数量，它不应该被遮蔽。</p>
+
+    <p>
+        <img src="img/refit/Refit-digest.png" alt="Refit-digest" />
+    </p>
+
+    <p style="color: grey;">
+        * 弹性的零件数可能更会让玩家“上瘾”；
+    </p>
+
+    <p style="padding-top: 2em;">
+        如果拆解的零件等级较高，或许需要“确认操作”。
+    </p>
+        
+    <p>
+        <img src="img/refit/Refit-con.png" alt="Refit-con" />
+    </p>
+    <a name="anchor_4"></a>
+    <hr />
+    <p name="parts" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+        四、部件（升级）
+    </p>
+    <p>
+        未达到满级的部件可进行升级。点击 UPGRADE（升级）按钮。
+    </p>
+
+    <p>
+        <img src="img/refit/Refit-new.png" alt="Refit-new" />
+    </p>
+
+    <p>
+        遮盖部分背景，让用户更加专注于当前的操作，但这一步操作关乎于“游戏货币 & 零件”的数量，它不应该被遮蔽。
+    </p>
+
+    <p>
+        <img src="img/refit/Refit-up.png" alt="Refit-up" />
+    </p>
+    <a name="anchor_5"></a>
+    <hr />
+    <p name="" style="font-weight: 500; font-size: 2em; margin-bottom: 1em;">
+        五、部件（装备）
+    </p>
+    <p>
+        未被装备的部件可以直接进行装备， 点击“EQUIP（装备）”按钮后，“TEST DRIVE 试驾按钮”的显示优先级被提高；
+    </p>
+
+    <p>
+        <img src="img/refit/Refit-E.png" alt="Refit-E" />
+    </p>
+
+    <p style="padding-top: 2em;">
+        如果“部件”已被备其他车辆的装备，则需要先将其卸下，再执行“装备”操作。<br />
+        <b>1. </b>针对满级装备进行“装饰强化”，有助于区别于未满级装备；<br />
+        <b>2. </b>如果这个“15级的部件”用在这辆车上，会出现属性溢出“OVERLOAD”。
+    </p>
+    <p>
+        
+    </p>
+    <p>
+        <img src="img/refit/Refit-up2.png" alt="Introduction" />
+    </p>
+
+    <p style="color: grey;">
+        * 在设计中，故意没有给出「装备其他车辆正在使用的“部件”」的操作捷径，是因为有更多的潜在考虑，其中之一是“不希望用户仅仅使用和维护单一的某个类型部件（如发动机）”。
+    </p>
+
+    <hr />
+
+    <p style="font-weight: 500;">
+        完。
+    </p>
+
+    <p style="font-weight: 500;">
+        谢谢滑动，如有兴趣你还可以在 
+        <a href="index.html" class="a1" target="_blank">这里</a>
+        查看更多关于我做的一些事情与爱好 ：） 
+    </p>
+
+</body>
+
+</html>
