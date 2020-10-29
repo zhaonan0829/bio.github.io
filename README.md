@@ -1,6 +1,6 @@
 Hi.
 
-My name is zhao nan.
+My name is Zhaonan.
 
 I am an interaction designer and have been engaged in design, development and system analysis for seven years. At present, I am working in Guzhen story workshop(walked off). We mainly provide a series of auxiliary tools for text researchers to help them understand the text features objectively in a short time from the dimensions of text structure, character emotions, complex beats, etc. I like what we are doing now.
 
