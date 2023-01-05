@@ -94,6 +94,11 @@ b {
     border: 0
 }
 
+iframe{
+      width: 52vh;
+      height: 29vh;
+    }
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #333333;
