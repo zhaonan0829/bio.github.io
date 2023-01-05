@@ -10,11 +10,11 @@ p {
     font-size: 1.6em;
     font-weight: 300;
     line-height: 1.4;
-    max-width: 40em;
+    max-width: 44em;
 }
 
 li, ol {
-    max-width: 40em;
+    max-width: 44em;
 }
 
 
