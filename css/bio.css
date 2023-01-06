@@ -94,10 +94,10 @@ b {
     border: 0
 }
 
-iframe{
-      width: 52vh;
-      height: 29vh;
-    }
+iframe {
+    width: 62.5vw;
+    height: 35.165vw; /* 100/56.25 = 560/315 = 1.778 */
+}
 
 @media (prefers-color-scheme: dark) {
     body {
